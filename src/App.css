@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coming+Soon&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Poppins&family=Roboto&display=swap");
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Coming Soon', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --bg: #1c1c1c;
+  --text: #fff;
+  --primary: #f4bf37;
+  --gray: #b1b1b1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+.section:nth-child(1) {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg);
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+}
+
+.text {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.primary {
+  color: var(--primary);
+  font-family: "Poppins", sans-serif;
+}
+
+.desc {
+  font-family: "Poppins", sans-serif;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero {
+  width: 35rem;
+  border-radius: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.hero:hover {
+  scale: 1.05;
+}
+
+.sub {
+  margin-top: 1rem;
+}
+
+#heading {
+  width: 35.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.desc {
+  width: 45rem;
+  text-align: center;
+  color: var(--gray);
+  margin: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 2rem;
+}
+.btn {
+  border: 2px solid var(--gray);
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+#service:hover {
+  background-color: var(--gray);
+}
+
+#book:hover {
+  background-color: var(--gray);
+}
+
+#about .primary,
+#about-head {
+  text-align: center;
+}
+
+#about .primary {
+  padding-top: 5rem;
+}
+
+#about-head {
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  text-decoration-color: var(--primary);
+}
+
+.desc {
+  margin: 2rem auto;
+}
+
+.con {
+  display: flex;
+  width: 90vw;
+  margin: 1rem auto;
+}
+
+.about-img {
+  width: 35rem;
+  border-radius: 20px;
+}
+
+.desc1 {
+  font-family: "Poppins", sans-serif;
+  color: var(--gray);
+  width: 35rem;
+  line-height: 2rem;
+  position: relative;
+}
+
+.desc1::before {
+  content: "";
+  width: 0.2rem;
+  height: 8rem;
+  background-color: var(--primary);
+  display: block;
+  position: absolute;
+  left: -20px;
+}
+
+.text-con {
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.desc2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--gray);
+  width: 35rem;
+  line-height: 2rem;
+}
+
+#services .primary,
+#service-head {
+  text-align: center;
+}
+
+#services .primary {
+  padding-top: 5rem;
+}
+
+#service-head {
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  text-decoration-color: var(--primary);
+}
+
+.card-con {
+  display: flex;
+  gap: 2rem;
+  padding: 5rem;
+}
+.card {
+  padding: 4rem 1rem;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border: 0.1px solid var(--gray);
+  border-radius: 20px;
+  background-color: #222222;
+  cursor: pointer;
+}
+
+.card:hover {
+}
+
+li {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
